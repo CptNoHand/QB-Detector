@@ -10,7 +10,7 @@ Config.DetectorActMessage = 'Detector Alarm Activated.'  -- Notification Mesage
 Config.InteractSoundAlert = "emergency"                  -- Interact Sound Alert file name
 Config.InteractSoundAlertDist = 10                       -- Distance it can be heard server sided.(requires you to make xsound or interact work serversided for OneSync infinity)
 Config.InteractSoundAlertVol = 1.0                       -- Alert Volume. Ideal Range is 0.5 -1.0
-Config.TNotify = true                                    -- Set true to use t-notify otherwise false will use default qbcore notif.
+Config.TNotify = false                                    -- Set true to use t-notify otherwise false will use default qbcore notif.
 Config.DetectorReChecks = 4000                           -- The Frequence The Detector checks after a person scan, Default is 4000 (4seconds)
 Config.Detectdistance = 0.6                              -- Detector Distance
 
@@ -19,6 +19,12 @@ Config.Detectdistance = 0.6                              -- Detector Distance
 -------------------------------
 Config.Detectors = {                                    -- Add More Locations Here
     { x = 849.83, y = -1305.15, z = 24.32 },
+    { x = -1104.48, y = -841.98, z = 19.00 },
+    { x = -1103.62, y = -842.91,  z = 19.00 },
+    { x = -1105.1, y = -840.89, z = 19.00 },
+    { x = -1110.68, y = -828.54, z = 19.00 },
+    { x = -1109.72, y = -827.78, z = 19.00 },
+    { x = -1108.76, y = -827.08, z = 19.00 },
     { x = 2506.62, y = -422.6, z = 94.58 },
     { x = 2509.02, y = -420.21, z = 94.58 },
     { x = 2508.80, y = -350.52, z = 94.09 },
